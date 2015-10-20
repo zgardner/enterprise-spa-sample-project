@@ -17,8 +17,14 @@
         "url": "https://github.com/zgardner/enterprise-spa-sample-project.git"
     },
     "devDependencies": {
+        "express": "~4.13.3",
         "grunt": "~0.4.5",
-        "grunt-cli": "~0.1.13"
+        "grunt-browserify": "~4.0.1",
+        "grunt-cli": "~0.1.13",
+        "grunt-contrib-clean": "~0.6.0",
+        "grunt-contrib-watch": "~0.6.1",
+        "grunt-express-server": "~0.5.1",
+        "load-grunt-config": "~0.17.2"
     },
     "engines": {
         "node": "~4.2.1",
